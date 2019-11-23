@@ -1,0 +1,42 @@
+* {
+ 
+  color: white;
+
+}
+body {
+  margin: 0;
+  padding: 5px;
+  font-size: 12px;
+  background-image: url('./assets/197.jpg');
+  background-size: contain;
+}
+.keyboard {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+
+.key {
+  border: 2px solid rgb(203, 203, 203);
+  background-color: rgb(29, 31, 57);
+  padding: 10px;
+  transition: all .07s ease;
+  font-size: 1.5em;
+  text-align: center;
+  width: 100px
+}
+
+kbd {
+  display: block;
+  font-size: 3em
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #fffcfc
+}
+
+.sound {
+  text-transform: uppercase;
+}
